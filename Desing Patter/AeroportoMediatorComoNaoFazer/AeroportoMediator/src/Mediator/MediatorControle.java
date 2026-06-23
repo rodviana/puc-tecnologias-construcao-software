@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package Mediator;
+
+import Models.PistaPouso;
+import Models.Voo;
+
+/**
+ *
+ * @author anibal.jukemura
+ */
+public interface MediatorControle {
+    public void registroPistaPouso(PistaPouso pista);
+  
+    public void registroVoo(Voo voo);
+  
+    public boolean pousando();
+  
+    public void setPousandoStatus(boolean status);
+}
